@@ -28,7 +28,7 @@ int *func(){
     
     // primero direcciona,despues incrementa
     // (*ptr++) primero regresa el contenido de la direccion
-    // que apunta que en este momento es a[0], es decir , a[0]=2
+    // que apunta , que en este momento es a[0], es decir , a[0]=2
     // NOTA:INCREMENTA HASTA QUE TODA LA OPERACION HA SIDO EVALUADA. 
     // Como (*ptr++) regresa 2 , la operacion es
     // a[0]= 2  + 2  
