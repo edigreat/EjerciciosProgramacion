@@ -4,6 +4,7 @@ int a[5] = {2,4,6,8,10};
 int *func();
 int main(){
     int Licontador=0;
+
     //Como regresa un puntero, imprimimos 
     // el contenido del mismo, para el ejercicio
     //a[1] = 4
@@ -25,10 +26,9 @@ int *func(){
     
     // primero direcciona,despues incrementa
     // (*ptr++) primero regresa el contenido de la direccion
-    // que apunta (2), que en n este momento es la primera
+    // que apunta (2), que en este momento es a[0]
     // NOTA:INCREMENTA HASTA QUE TODA LA OPERACION HA SIDO EVALUADA. 
-    // sin afectar ningun valor. Como (*ptr++) regresa 2
-    // la operacion es
+    // Como (*ptr++) regresa 2 , la operacion es
     // a[0]= 2  + 2  
     // Una vez que ha sido evaluada TODA  la expresion, 
     // se incrementa el puntero, es decir regresa la direccion
@@ -37,3 +37,18 @@ int *func(){
     return ptr;
 
 }
+
+//  Compilado con gcc version 4.6.3 
+//  
+//  gcc PunteroFuncion.c ; ./a.out
+//
+//  Ejemplo de una ejecucion
+//
+//  Resultado  [4]  
+//  Verificando el contenido del arreglo 
+//  item[0] = 4 
+//  item[1] = 4 
+//  item[2] = 6 
+//  item[3] = 8 
+//  item[4] = 10 
+ 
