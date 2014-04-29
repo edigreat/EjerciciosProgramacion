@@ -20,7 +20,7 @@ int main()
  */
 
 void fnsuma(int *x,int *y){
-
+    //Modifica el contenido al cual apuntan
     *x = *x + *y;
 
 }
